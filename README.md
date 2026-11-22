@@ -1,4 +1,4 @@
-# preuve-ai
+# Preuve AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,151 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-preuve-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://preuve.ai/
+Preuve AI provides an AI-powered startup idea validation platform that tests business ideas before building. It aggregates real data from 60+ live sources to assess market demand, competition, and viability, delivering a free 60‑second scan with detailed reports. The service aims to help entrepreneurs make evidence‑based decisions, reducing risk and saving time and resources.
+
+**Areas:** Company · AI · Startup · Validation · MarketResearch · SaaS
+
+## Preuve AI on APIs.io
+
+Everything profiled for Preuve AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/preuve-ai/](https://apis.io/providers/preuve-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Preuve AI Agency API](https://apis.io/apis/preuve-ai/preuve-ai-agency-api/) — Client work on a Consultant or Agency workspace (agency:read / agency:write).
+- [Preuve AI Analyses API](https://apis.io/apis/preuve-ai/preuve-ai-analyses-api/) — One idea at a time - create, poll, enrich, export.
+- [Preuve AI Batches API](https://apis.io/apis/preuve-ai/preuve-ai-batches-api/) — Up to five analyses in one idempotent batch.
+- [Preuve AI Discovery API](https://apis.io/apis/preuve-ai/preuve-ai-discovery-api/) — Unauthenticated documents that describe the API itself.
+- [Preuve AI Tools API](https://apis.io/apis/preuve-ai/preuve-ai-tools-api/) — Utilities that spend no scan quota.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Preuve Ai Webhooks](https://apis.io/asyncapis/preuve-ai/preuve-ai-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Preuve AI Agentic Access](https://apis.io/agentic-access/preuve-ai/preuve-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgencyContext](https://apis.io/schemas/preuve-ai/preuve-ai-agency-context/)
+- [AnalysisExport](https://apis.io/schemas/preuve-ai/preuve-ai-analysis-export/)
+- [AnalysisRun](https://apis.io/schemas/preuve-ai/preuve-ai-analysis-run/)
+- [ApiDiscovery](https://apis.io/schemas/preuve-ai/preuve-ai-api-discovery/)
+- [BatchExport](https://apis.io/schemas/preuve-ai/preuve-ai-batch-export/)
+- [CreateAgencyAnalysisRequest](https://apis.io/schemas/preuve-ai/preuve-ai-create-agency-analysis-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Preuve Ai Context](https://apis.io/jsonld/preuve-ai/preuve-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Preuve AI API Rules](https://apis.io/rules/preuve-ai/preuve-ai-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Preuve AI Authentication](https://apis.io/security/preuve-ai/preuve-ai-authentication/)
+- [Preuve AI Domain Security](https://apis.io/security/preuve-ai/preuve-ai-domain-security/)
+- [Preuve AI Trust Center](https://apis.io/security/preuve-ai/preuve-ai-trust-center/)
+- [Preuve AI Vulnerability Disclosure](https://apis.io/security/preuve-ai/preuve-ai-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Preuve AI Plans Pricing](https://apis.io/plans/preuve-ai/preuve-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Preuve AI Rate Limits](https://apis.io/rate-limits/preuve-ai/preuve-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://preuve.ai/)
+- [Documentation](https://docs.preuve.ai/)
+- [Getting started](https://docs.preuve.ai/quickstart)
+- [API reference](https://docs.preuve.ai/api-reference/introduction)
+- [Pricing](https://preuve.ai/pricing)
+- [Support](https://preuve.ai/support)
+- [Blog](https://preuve.ai/blog)
+- [Security](https://preuve.ai/security)
+- [Compliance](https://preuve.ai/security)
+- [Terms of service](https://preuve.ai/terms)
+- [Privacy policy](https://preuve.ai/privacy)
+- [GitHub](https://github.com/PreuveAI)
+
+## API Evangelist rating
+
+**Kin Score 67.9** — exemplar · rubric 0.28.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 69.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.1 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 61.3 |
+
+**Agent readiness 53.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/preuve-ai/](https://apis.io/providers/preuve-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Preuve AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/preuve-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
